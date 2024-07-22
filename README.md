@@ -569,6 +569,8 @@ When developing from the IAR Embedded Workbench IDE, it is possible to add the R
 | Initial Directory | `$PROJ_DIR$`
 | Tool Available | `Always`
 
+The RA Smart Configurator can now be launched from within the IDE main menu: __Tools__ → __RA Smart Configurator v5.4.0__.
+
 - Create a __New__ item and, for __RA Device Partition Manager__ use the following:
 
 | Item | Value
@@ -578,8 +580,6 @@ When developing from the IAR Embedded Workbench IDE, it is possible to add the R
 | Argument | `-application com.renesas.cdt.ddsc.dpm.ui.dpmapplication configuration.xml "$TARGET_PATH$"`
 | Initial Directory | `$PROJ_DIR$`
 | Tool Available | `Always`
-
-The RA Smart Configurator can now be launched from within the IDE main menu: __Tools__ → __RA Smart Configurator v5.4.0__.
 
 - An IAR Project Connection File (`*.ipcf`) must be set up in EWARM to build the RA FSP project. Select __Project__ → __Add Project Connection__ → __IAR Project Connection__ and browse to the project's `buildinfo.ipcf` so that the project is now connected to RASC.
 
