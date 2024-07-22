@@ -563,7 +563,7 @@ When developing from the IAR Embedded Workbench IDE, it is possible to add the R
 
 | Item | Value
 | - | -
-| Menu Text | `RA Smart Configurator v.5.4.0`
+| Menu Text | `RA Smart Configurator v5.4.0`
 | Command | Select `Browse...` and navigate to `C:\Renesas\RA\sc_v2024-04_fsp_v5.4.0\eclipse\rasc.exe`
 | Argument | `-compiler IAR configuration.xml`
 | Initial Directory | `$PROJ_DIR$`
@@ -581,7 +581,7 @@ When developing from the IAR Embedded Workbench IDE, it is possible to add the R
 
 The RA Smart Configurator can now be launched from within the IDE main menu: __Tools__ → __RA Smart Configurator v5.4.0__.
 
-An IAR Project Connection File (`*.ipcf`) must be set up in EWARM to build the RA FSP project. Select __Project__ → __Add Project Connection__ → __IAR Project Connection__ and browse to the project's `buildinfo.ipcf` so that the project is no connected to RASC.
+- An IAR Project Connection File (`*.ipcf`) must be set up in EWARM to build the RA FSP project. Select __Project__ → __Add Project Connection__ → __IAR Project Connection__ and browse to the project's `buildinfo.ipcf` so that the project is now connected to RASC.
 
 ## Importing projects from e2studio to IAR Embedded Workbench IDE
 It is possible to import a project created on e2studio to the IAR Embedded Workbench IDE.
